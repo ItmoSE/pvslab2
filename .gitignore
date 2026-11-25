@@ -1,0 +1,54 @@
+# Build directories
+/build/
+/cmake-build-*/
+/out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+compile_commands.json
+
+# Ninja generated files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled object files
+*.o
+*.obj
+*.d
+
+# Compiled libraries
+*.a
+*.lib
+
+# STM32 firmware build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.axf
+
+# Stack usage and complexity reports
+*.su
+*.cyclo
+
+# Clangd cache
+.cache/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
